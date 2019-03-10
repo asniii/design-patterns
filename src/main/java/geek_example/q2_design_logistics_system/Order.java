@@ -14,7 +14,7 @@ public class Order {
     private Long totalWeight;
     private OrderStatus currentStatus;
     private Date timeOfOrderPlaced;
-    private Date timeOfOrderDelievery;
+    private Date timeOfOrderDelivery;
     private Vehicle vehecileOfThisOrder;
 
     public int getOrderId() {
@@ -89,12 +89,12 @@ public class Order {
         this.timeOfOrderPlaced = timeOfOrderPlaced;
     }
 
-    public Date getTimeOfOrderDelievery() {
-        return timeOfOrderDelievery;
+    public Date getTimeOfOrderDelivery() {
+        return timeOfOrderDelivery;
     }
 
-    public void setTimeOfOrderDelievery(Date timeOfOrderDelievery) {
-        this.timeOfOrderDelievery = timeOfOrderDelievery;
+    public void setTimeOfOrderDelivery(Date timeOfOrderDelivery) {
+        this.timeOfOrderDelivery = timeOfOrderDelivery;
     }
 
     public Vehicle getVehecileOfThisOrder() {

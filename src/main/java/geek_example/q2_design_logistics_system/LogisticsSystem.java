@@ -30,5 +30,37 @@ public class LogisticsSystem {
         return location;
     }
 
+    public void cancelOrder(Order order){
+        System.out.println("Going to cancel an order on the system.");
+    }
+
+    public void registerNewUser(User user){
+        System.out.println("Register new user");
+        users.add(user);
+    }
+
+    public List<Order> getOrders(){
+        return orders;
+    }
+
+    public void setOrders(List<Order> orders){
+        this.orders = orders;
+    }
+
+    public void setVehicles(List<Vehicle> vehicles)
+    {
+        this.vehicles = vehicles;
+    }
+
+    public List<User> getUsers()
+    {
+        return users;
+    }
+
+    public void setUsers(List<User> users)
+    {
+        this.users = users;
+    }
+
 
 }
