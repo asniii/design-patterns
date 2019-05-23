@@ -1,4 +1,4 @@
-package geek_example.q1_design_hit_counter;
+package example.q1_design_hit_counter;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package geek_example.q1_design_hit_counter;
+package example.q1_design_hit_counter;
 
 /***
  * Design a hit counter which counts the number of hits received in the past 5 minutes.

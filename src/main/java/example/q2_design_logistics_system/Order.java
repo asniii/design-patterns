@@ -1,4 +1,4 @@
-package geek_example.q2_design_logistics_system;
+package example.q2_design_logistics_system;
 
 import java.util.Date;
 import java.util.List;
